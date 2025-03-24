@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Filmes</title>
+    <link rel = "stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">🎬 Catálogo de Filmes</div>
+            <div class="search-container">
+            <input type="text" id="search" placeholder="Buscar filmes...">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Gêneros</a></li>
+                <li><a href="#">Favoritos</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <img src="/Imagens/logo.png" alt="LogoSite " id="LogoS">
+        <p>Aqui você encontra os melhores filmes!!</p>
+        <section class="destaques">
+            <h2>Filmes em Destaque</h2>
+            <div class="carrossel">
+                <div class="filme destaque">
+                    <img src="/Imagens/Daddy_Day_Care.jpg" alt="filme1" >
+                </div>
+                <div class="filme destaque">
+                    <img src="/Imagens/Cidade perdida.jpg"alt="filme2">
+                </div>
+                <div class="filme destaque">
+                    <img src="/Imagens/Semdorsemganho.jpg" alt="filme3">
+                </div>
+            </div>
+        </section>
+
+        <section class="listagem">
+            <h2>Todos os Filmes</h2>
+            <div class="filtros">
+                <select id="filtro-genero">
+                    <option value="">Todos os Gêneros</option>
+                    <option value="acao">Ação</option>
+                    <option value="comedia">Comédia</option>
+                </select>
+                <select id="filtro-ano">
+                    <option value="">Todos os Anos</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                </select>
+            </div>
+            <div class="grid-filmes">
+                <div class="filme">
+                    <img src="/Imagens/picapau.jpg" alt="Filme 1">
+                    <h3>Filme 1</h3>
+                    <p>É uma comédia live-action e animação CGI que acompanha o Pica-Pau em uma guerra 
+                        por território contra o advogado Lance Walters</p>
+                    <button>Ver Detalhes</button>
+                </div>
+                <div class="filme">
+                    <img src="/Imagens/feriasTrocadas.jpg" alt="Filme 2">
+                    <h3>Filme 2</h3>
+                    <p>Dois José Eduardos, um dono de escolinha de futebol e outro empresário, 
+                        ganham uma viagem para Cartagena, mas são confundidos e se hospedam em locais opostos</p>
+                    <button>Ver Detalhes</button>
+                </div>
+            
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Catálogo de Filmes</p>
+    </footer>
+    <footer>
+        <p>Gean Marques</p>
+    </footer>
+</body>
+</html>
